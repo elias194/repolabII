@@ -8,3 +8,6 @@ set_appearance_mode("dark")
 label = CTkLabel(master=root)
 
 root.mainloop()
+
+def loca():
+    pass
