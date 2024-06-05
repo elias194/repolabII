@@ -17,12 +17,6 @@ class Raza:
     def setEstado(self):
         return self.estado
 
-    def estado_raza(self):
-        pass
-
-    def Modificar_estado(self):
-        pass
-
     def eliminar_raza(self):
         pass
 
