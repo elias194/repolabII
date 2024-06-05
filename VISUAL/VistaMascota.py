@@ -1,4 +1,3 @@
-from ControllersMascota import ControllersMascota
 class Vistamascota:
     def getEdad(self):
         return int(input("ingrese año de nacimiento"))

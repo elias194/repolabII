@@ -1,5 +1,4 @@
-from VISUAL.VistaMascota import Vistamascota
-from Raza import Raza
+from MODELO.Raza import Raza
 from VISUAL.VistaMascota import Vistamascota
 class ControllersMascota:
     def __init__(self):
