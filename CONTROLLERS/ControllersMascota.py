@@ -25,7 +25,7 @@ class ControllersMascota:
         pass
     def asignarespecie(self):
         pass
-    def pedirnombre(self):
-        pass
+    def pedir_nombre(self):
+        nombre= Vistamascota.NombreMascota()
     def asigarpropietario(self):
         pass
