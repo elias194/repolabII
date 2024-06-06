@@ -2,7 +2,11 @@ from VISUAL.VistaRaza import VistaRaza
 from MODELO.Raza import Raza
 class ControllersRaza:
     def __init__(self):
+<<<<<<< HEAD
         pass
+=======
+
+>>>>>>> parent of 57af4cf (borre)
     def Modificar_estado(self):
         if VistaRaza.ModificarEstado() == True :
             if Raza.getEstado()== 0:

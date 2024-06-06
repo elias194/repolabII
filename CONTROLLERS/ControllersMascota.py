@@ -1,5 +1,6 @@
 from MODELO.Raza import Raza
 from VISUAL.VistaMascota import Vistamascota
+<<<<<<< HEAD
 from MODELO.Mascota import Mascota
 
 class ControllersMascota:
@@ -10,6 +11,17 @@ class ControllersMascota:
     def conocerraza(self):
         return self.modeloRaza
 
+=======
+class ControllersMascota:
+    def __init__(self):
+        self.vista= Vistamascota.getEdad()
+        self.modeloRaza= Raza(nombre="",especie="",estado=0)
+    def conocerraza(self):
+        return self.modeloRaza
+    def calcularedad(self):
+        edad = 2024 - Vistamascota.getEdad()
+        return edad
+>>>>>>> parent of 57af4cf (borre)
     def modificar_estado(self):
         if Vistamascota.ModificarEstado() == True :
             if Raza.getEstado()== 0:
@@ -19,6 +31,7 @@ class ControllersMascota:
                 Raza.setEstado(0)
                 return "desabilitado"
 
+<<<<<<< HEAD
     def asignar_raza(self):
         pass
     def modificar_mascota(self):
@@ -29,3 +42,5 @@ class ControllersMascota:
         nombre= Vistamascota.NombreMascota()
     def asigarpropietario(self):
         pass
+=======
+>>>>>>> parent of 57af4cf (borre)
