@@ -1,19 +1,15 @@
 class Mascota:
-<<<<<<< HEAD
-    def __init__(self,estado="",nombre="",raza="",fecha_nacimiento="",propietario="",fichamedica=""):
-=======
-    def __init__(self,estado="",nombre="",raza="",fecha_nacimiento="",propietario="",codigo_propietario=""):
->>>>>>> parent of 57af4cf (borre)
+    def __init__(self,estado="",nombre="",raza="",fecha_nacimiento="",propietario="",codigo_propietario="", fichamedica=""):
         self.estado = estado
         self.nombre = nombre
         self.raza = raza
         self.fecha_nacimiento = fecha_nacimiento
         self.propietario = propietario
-<<<<<<< HEAD
+
         self.fichamedica=fichamedica
-=======
+
         self.codigo_propietario = codigo_propietario
->>>>>>> parent of 57af4cf (borre)
+
 
     def getEstado(self):
         return self.estado
