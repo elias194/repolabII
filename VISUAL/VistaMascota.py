@@ -5,5 +5,4 @@ class Vistamascota:
         if pregunta=="si":
             return True
         return False
-    def NombreMascota(self):
-        return input("Nombre Mascota")
+
