@@ -1,11 +1,11 @@
 class Mascota:
-    def __init__(self,estado="",nombre="",raza="",fecha_nacimiento="",propietario="",codigo_propietario=""):
+    def __init__(self,estado="",nombre="",raza="",fecha_nacimiento="",propietario="",fichamedica=""):
         self.estado = estado
         self.nombre = nombre
         self.raza = raza
         self.fecha_nacimiento = fecha_nacimiento
         self.propietario = propietario
-        self.codigo_propietario = codigo_propietario
+        self.fichamedica=fichamedica
 
     def getEstado(self):
         return self.estado
