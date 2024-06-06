@@ -2,7 +2,7 @@ from VISUAL.VistaRaza import VistaRaza
 from MODELO.Raza import Raza
 class ControllersRaza:
     def __init__(self):
-
+        pass
     def Modificar_estado(self):
         if VistaRaza.ModificarEstado() == True :
             if Raza.getEstado()== 0:
